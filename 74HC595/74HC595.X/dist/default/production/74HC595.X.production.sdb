@@ -1,0 +1,63 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"48 E:\PIC_MPlap\74HC595\74HC595.X\74HC595.c
+[v _main main `(v  1 e 1 0 ]
+"64
+[v _HC595Init HC595Init `(v  1 e 1 0 ]
+"74
+[v _Output595 Output595 `(v  1 e 1 0 ]
+"62 D:\CAIDAT\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\CAIDAT\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 D:\CAIDAT\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"2533 D:\CAIDAT\Microchip\xc8\v1.45\include\pic16f877a.h
+[v _PCFG0 PCFG0 `VEb  1 e 0 @1272 ]
+"2535
+[v _PCFG1 PCFG1 `VEb  1 e 0 @1273 ]
+"2537
+[v _PCFG2 PCFG2 `VEb  1 e 0 @1274 ]
+"2539
+[v _PCFG3 PCFG3 `VEb  1 e 0 @1275 ]
+"2637
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2639
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"2641
+[v _RE2 RE2 `VEb  1 e 0 @74 ]
+"2793
+[v _TRISE0 TRISE0 `VEb  1 e 0 @1096 ]
+"2795
+[v _TRISE1 TRISE1 `VEb  1 e 0 @1097 ]
+"2797
+[v _TRISE2 TRISE2 `VEb  1 e 0 @1098 ]
+"48 E:\PIC_MPlap\74HC595\74HC595.X\74HC595.c
+[v _main main `(v  1 e 1 0 ]
+{
+"63
+} 0
+"74
+[v _Output595 Output595 `(v  1 e 1 0 ]
+{
+[v Output595@dt dt `uc  1 a 1 wreg ]
+"75
+[v Output595@i i `i  1 a 2 3 ]
+"76
+[v Output595@ch ch `uc  1 a 1 2 ]
+"74
+[v Output595@dt dt `uc  1 a 1 wreg ]
+"77
+[v Output595@dt dt `uc  1 a 1 1 ]
+"88
+} 0
+"64
+[v _HC595Init HC595Init `(v  1 e 1 0 ]
+{
+"73
+} 0

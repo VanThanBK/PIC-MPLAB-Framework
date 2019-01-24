@@ -1,0 +1,275 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"5 A:\PIC_MPlap\LCD\MyLCD.c
+[v _LCDInit LCDInit `(v  1 e 1 0 ]
+"20
+[v _LCDMode4Bit LCDMode4Bit `(v  1 e 1 0 ]
+"30
+[v _LCDWriteByte LCDWriteByte `(v  1 e 1 0 ]
+"43
+[v _LCDWriteData LCDWriteData `(v  1 e 1 0 ]
+"49
+[v _LCDWriteCommand LCDWriteCommand `(v  1 e 1 0 ]
+"55
+[v _LCDLatchData LCDLatchData `(v  1 e 1 0 ]
+"62
+[v _LCDClear LCDClear `(v  1 e 1 0 ]
+"66
+[v _LCDMove LCDMove `(v  1 e 1 0 ]
+"72
+[v _LCDPutChar LCDPutChar `(v  1 e 1 0 ]
+"76
+[v _LCDPrint LCDPrint `(v  1 e 1 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"492 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftoa.c
+[v _ftoa ftoa `(*.4uc  1 e 1 0 ]
+"18 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"33 A:\PIC_MPlap\NEW\NEW.X\NEW.c
+[v _main main `(v  1 e 1 0 ]
+"87
+[v _Timer2Init Timer2Init `(v  1 e 1 0 ]
+"101
+[v _PWMControl PWMControl `(v  1 e 1 0 ]
+"925 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic16f887.h
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"2039
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"3700
+[v _CCP1M0 CCP1M0 `VEb  1 e 0 @184 ]
+"3702
+[v _CCP1M1 CCP1M1 `VEb  1 e 0 @185 ]
+"3704
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @186 ]
+"3706
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @187 ]
+"3708
+[v _CCP1X CCP1X `VEb  1 e 0 @189 ]
+"3710
+[v _CCP1Y CCP1Y `VEb  1 e 0 @188 ]
+"3940
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"3942
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"3972
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"3974
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"3976
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"3978
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"3980
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"3982
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"3984
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"4084
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"4086
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"4106
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"4150
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1081 ]
+"4152
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"4166
+[v _TRISD1 TRISD1 `VEb  1 e 0 @1089 ]
+"4168
+[v _TRISD2 TRISD2 `VEb  1 e 0 @1090 ]
+"4170
+[v _TRISD3 TRISD3 `VEb  1 e 0 @1091 ]
+"4172
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"4174
+[v _TRISD5 TRISD5 `VEb  1 e 0 @1093 ]
+"4176
+[v _TRISD6 TRISD6 `VEb  1 e 0 @1094 ]
+"4178
+[v _TRISD7 TRISD7 `VEb  1 e 0 @1095 ]
+"33 A:\PIC_MPlap\NEW\NEW.X\NEW.c
+[v _main main `(v  1 e 1 0 ]
+{
+"69
+} 0
+"101
+[v _PWMControl PWMControl `(v  1 e 1 0 ]
+{
+[v PWMControl@percent percent `uc  1 a 1 wreg ]
+"102
+[v PWMControl@PWM_Reg PWM_Reg `ui  1 a 2 38 ]
+"101
+[v PWMControl@percent percent `uc  1 a 1 wreg ]
+[v PWMControl@sig sig `uc  1 p 1 34 ]
+"103
+[v PWMControl@percent percent `uc  1 a 1 37 ]
+"108
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 11 ]
+"30
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 29 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 33 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 28 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 20 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 15 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 19 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 18 ]
+[v ___ftmul@exp exp `uc  1 a 1 14 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 4 ]
+[v ___ftmul@f2 f2 `f  1 p 3 7 ]
+"157
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 13 ]
+"32
+[v ___awtoft@c c `i  1 p 2 8 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"76 A:\PIC_MPlap\LCD\MyLCD.c
+[v _LCDPrint LCDPrint `(v  1 e 1 0 ]
+{
+[v LCDPrint@y y `uc  1 a 1 wreg ]
+[v LCDPrint@y y `uc  1 a 1 wreg ]
+[v LCDPrint@x x `uc  1 p 1 0 ]
+[v LCDPrint@str str `*.26uc  1 p 2 1 ]
+"78
+[v LCDPrint@y y `uc  1 a 1 3 ]
+"84
+} 0
+"72
+[v _LCDPutChar LCDPutChar `(v  1 e 1 0 ]
+{
+[v LCDPutChar@ch ch `uc  1 a 1 wreg ]
+[v LCDPutChar@ch ch `uc  1 a 1 wreg ]
+"74
+[v LCDPutChar@ch ch `uc  1 a 1 5 ]
+"75
+} 0
+"43
+[v _LCDWriteData LCDWriteData `(v  1 e 1 0 ]
+{
+[v LCDWriteData@dt dt `uc  1 a 1 wreg ]
+[v LCDWriteData@dt dt `uc  1 a 1 wreg ]
+"45
+[v LCDWriteData@dt dt `uc  1 a 1 4 ]
+"48
+} 0
+"66
+[v _LCDMove LCDMove `(v  1 e 1 0 ]
+{
+[v LCDMove@y y `uc  1 a 1 wreg ]
+"68
+[v LCDMove@Ad Ad `ui  1 a 2 10 ]
+"66
+[v LCDMove@y y `uc  1 a 1 wreg ]
+[v LCDMove@x x `uc  1 p 1 5 ]
+"69
+[v LCDMove@y y `uc  1 a 1 12 ]
+"71
+} 0
+"5
+[v _LCDInit LCDInit `(v  1 e 1 0 ]
+{
+"19
+} 0
+"20
+[v _LCDMode4Bit LCDMode4Bit `(v  1 e 1 0 ]
+{
+"29
+} 0
+"62
+[v _LCDClear LCDClear `(v  1 e 1 0 ]
+{
+"65
+} 0
+"49
+[v _LCDWriteCommand LCDWriteCommand `(v  1 e 1 0 ]
+{
+[v LCDWriteCommand@dt dt `uc  1 a 1 wreg ]
+[v LCDWriteCommand@dt dt `uc  1 a 1 wreg ]
+"51
+[v LCDWriteCommand@dt dt `uc  1 a 1 4 ]
+"54
+} 0
+"30
+[v _LCDWriteByte LCDWriteByte `(v  1 e 1 0 ]
+{
+[v LCDWriteByte@ch ch `uc  1 a 1 wreg ]
+[v LCDWriteByte@ch ch `uc  1 a 1 wreg ]
+"32
+[v LCDWriteByte@ch ch `uc  1 a 1 3 ]
+"42
+} 0
+"55
+[v _LCDLatchData LCDLatchData `(v  1 e 1 0 ]
+{
+"61
+} 0

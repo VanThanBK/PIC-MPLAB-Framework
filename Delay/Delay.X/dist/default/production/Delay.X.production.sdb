@@ -1,0 +1,107 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F629 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"44 D:\PIC_MPlap\Delay\Delay.X\Delay.c
+[v _main main `(v  1 e 1 0 ]
+"65
+[v _ReadSW ReadSW `(v  1 e 1 0 ]
+"77
+[v _TimerInit TimerInit `(v  1 e 1 0 ]
+"86
+[v _Timer0Int Timer0Int `II(v  1 e 1 0 ]
+"70 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic12f629.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"621
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1305
+[v _CM0 CM0 `VEb  1 e 0 @200 ]
+"1307
+[v _CM1 CM1 `VEb  1 e 0 @201 ]
+"1309
+[v _CM2 CM2 `VEb  1 e 0 @202 ]
+"1323
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"1341
+[v _GPIO0 GPIO0 `VEb  1 e 0 @40 ]
+"1343
+[v _GPIO1 GPIO1 `VEb  1 e 0 @41 ]
+"1345
+[v _GPIO2 GPIO2 `VEb  1 e 0 @42 ]
+"1349
+[v _GPIO4 GPIO4 `VEb  1 e 0 @44 ]
+"1351
+[v _GPIO5 GPIO5 `VEb  1 e 0 @45 ]
+"1387
+[v _PS0 PS0 `VEb  1 e 0 @1032 ]
+"1389
+[v _PS1 PS1 `VEb  1 e 0 @1033 ]
+"1391
+[v _PS2 PS2 `VEb  1 e 0 @1034 ]
+"1393
+[v _PSA PSA `VEb  1 e 0 @1035 ]
+"1401
+[v _T0CS T0CS `VEb  1 e 0 @1037 ]
+"1403
+[v _T0IE T0IE `VEb  1 e 0 @93 ]
+"1405
+[v _T0IF T0IF `VEb  1 e 0 @90 ]
+"1433
+[v _TRISIO0 TRISIO0 `VEb  1 e 0 @1064 ]
+"1435
+[v _TRISIO1 TRISIO1 `VEb  1 e 0 @1065 ]
+"1437
+[v _TRISIO2 TRISIO2 `VEb  1 e 0 @1066 ]
+"1441
+[v _TRISIO4 TRISIO4 `VEb  1 e 0 @1068 ]
+"1443
+[v _TRISIO5 TRISIO5 `VEb  1 e 0 @1069 ]
+"38 D:\PIC_MPlap\Delay\Delay.X\Delay.c
+[v _Time_Delay Time_Delay `VEi  1 e 2 0 ]
+"39
+[v _Buf1s Buf1s `VEi  1 e 2 0 ]
+"40
+[v _Buf1p Buf1p `VEi  1 e 2 0 ]
+"41
+[v _Start_Stop Start_Stop `s  1 e 2 0 ]
+"44
+[v _main main `(v  1 e 1 0 ]
+{
+"64
+} 0
+"77
+[v _TimerInit TimerInit `(v  1 e 1 0 ]
+{
+"85
+} 0
+"65
+[v _ReadSW ReadSW `(v  1 e 1 0 ]
+{
+"75
+} 0
+"86
+[v _Timer0Int Timer0Int `II(v  1 e 1 0 ]
+{
+"105
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0

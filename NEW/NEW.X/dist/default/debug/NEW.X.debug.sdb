@@ -1,0 +1,68 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"33 D:\PIC_MPlap\NEW\NEW.X\NEW.c
+[v _main main `(v  1 e 1 0 ]
+"87
+[v _Timer2Init Timer2Init `(v  1 e 1 0 ]
+"925 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic16f887.h
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @21 ]
+"2039
+[v _PR2 PR2 `VEuc  1 e 1 @146 ]
+"3700
+[v _CCP1M0 CCP1M0 `VEb  1 e 0 @184 ]
+"3702
+[v _CCP1M1 CCP1M1 `VEb  1 e 0 @185 ]
+"3704
+[v _CCP1M2 CCP1M2 `VEb  1 e 0 @186 ]
+"3706
+[v _CCP1M3 CCP1M3 `VEb  1 e 0 @187 ]
+"3708
+[v _CCP1X CCP1X `VEb  1 e 0 @189 ]
+"3710
+[v _CCP1Y CCP1Y `VEb  1 e 0 @188 ]
+"3942
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"3978
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"3980
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"3982
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4084
+[v _T2CKPS0 T2CKPS0 `VEb  1 e 0 @144 ]
+"4086
+[v _T2CKPS1 T2CKPS1 `VEb  1 e 0 @145 ]
+"4106
+[v _TMR2ON TMR2ON `VEb  1 e 0 @146 ]
+"4152
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"4172
+[v _TRISD4 TRISD4 `VEb  1 e 0 @1092 ]
+"4174
+[v _TRISD5 TRISD5 `VEb  1 e 0 @1093 ]
+"4176
+[v _TRISD6 TRISD6 `VEb  1 e 0 @1094 ]
+"33 D:\PIC_MPlap\NEW\NEW.X\NEW.c
+[v _main main `(v  1 e 1 0 ]
+{
+"69
+} 0

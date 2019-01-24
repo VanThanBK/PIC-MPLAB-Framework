@@ -1,0 +1,153 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"5 D:\PIC_MPlap\7SEG\My_7seg.c
+[v _SegInit SegInit `(v  1 e 1 0 ]
+"18
+[v _SegLed SegLed `(v  1 e 1 0 ]
+"34
+[v _SegNumber SegNumber `(v  1 e 1 0 ]
+"43 D:\PIC_MPlap\interruptRB\interruptRB.X\interruptRB.c
+[v _main main `(v  1 e 1 0 ]
+"58
+[v _ext_RB ext_RB `II(v  1 e 1 0 ]
+"73
+[v _RBInit RBInit `(v  1 e 1 0 ]
+"338 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1253
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1497
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2501
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"2533
+[v _PCFG0 PCFG0 `VEb  1 e 0 @1272 ]
+"2535
+[v _PCFG1 PCFG1 `VEb  1 e 0 @1273 ]
+"2537
+[v _PCFG2 PCFG2 `VEb  1 e 0 @1274 ]
+"2539
+[v _PCFG3 PCFG3 `VEb  1 e 0 @1275 ]
+"2559
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"2561
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"2563
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"2579
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"2581
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"2587
+[v _RBIE RBIE `VEb  1 e 0 @91 ]
+"2589
+[v _RBIF RBIF `VEb  1 e 0 @88 ]
+"2733
+[v _TRISA0 TRISA0 `VEb  1 e 0 @1064 ]
+"2735
+[v _TRISA1 TRISA1 `VEb  1 e 0 @1065 ]
+"2737
+[v _TRISA2 TRISA2 `VEb  1 e 0 @1066 ]
+"2753
+[v _TRISB4 TRISB4 `VEb  1 e 0 @1076 ]
+"2755
+[v _TRISB5 TRISB5 `VEb  1 e 0 @1077 ]
+"9 D:\PIC_MPlap\7SEG\My_7seg.h
+[v _num num `VEui  1 e 2 0 ]
+"36 D:\PIC_MPlap\interruptRB\interruptRB.X\interruptRB.c
+[v _i i `uc  1 e 1 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+{
+"55
+} 0
+"34 D:\PIC_MPlap\7SEG\My_7seg.c
+[v _SegNumber SegNumber `(v  1 e 1 0 ]
+{
+"36
+[v SegNumber@a a `ui  1 a 2 30 ]
+[v SegNumber@c c `ui  1 a 2 28 ]
+[v SegNumber@b b `ui  1 a 2 26 ]
+[v SegNumber@d d `ui  1 a 2 24 ]
+[v SegNumber@e e `ui  1 a 2 22 ]
+"34
+[v SegNumber@number number `i  1 p 2 12 ]
+"60
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 5 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 11 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 4 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 6 ]
+"31
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 0 ]
+[v ___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
+"18 D:\PIC_MPlap\7SEG\My_7seg.c
+[v _SegLed SegLed `(v  1 e 1 0 ]
+{
+"19
+[v SegLed@num num `uc  1 a 1 wreg ]
+[v SegLed@num num `uc  1 a 1 wreg ]
+"18
+[v SegLed@num num `uc  1 a 1 5 ]
+"33
+} 0
+"5
+[v _SegInit SegInit `(v  1 e 1 0 ]
+{
+"17
+} 0
+"73 D:\PIC_MPlap\interruptRB\interruptRB.X\interruptRB.c
+[v _RBInit RBInit `(v  1 e 1 0 ]
+{
+"80
+} 0
+"58
+[v _ext_RB ext_RB `II(v  1 e 1 0 ]
+{
+"70
+} 0
